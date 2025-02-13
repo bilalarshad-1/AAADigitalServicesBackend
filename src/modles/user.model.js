@@ -16,14 +16,6 @@ const userSchema = new Schema(
         trim: true,
         index: true,
       },
-     email: {
-        type: String,
-        required: true,
-        unique: true,
-        lowercase: true,
-        trim: true,
-        
-      },
       fullname: {
         type: String,
         required: true,
@@ -34,16 +26,6 @@ const userSchema = new Schema(
         type: String, //cloudinary url => a free service where uplaod the file, images, video and get the url to store in database
         required: true,
       },
-      avatar:{
-        type: String, //cloudinary url => a free service where uplaod the file, images, video and get the url to store in database
-      },
-      watchHistory: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: "Video",
-        }
-    ],
-
       password:{
         type: String,
         required: [true, "password is requires"],
