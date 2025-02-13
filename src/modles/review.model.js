@@ -13,11 +13,8 @@ const reviewSchema = new Schema(
         comment: { 
             type: String, 
             required: true 
-        },
-        starRating: { 
-            type: Number, 
-            required: true 
-        },
+        }
+        
     },
     
     {
