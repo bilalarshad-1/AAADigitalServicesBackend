@@ -1,7 +1,7 @@
 {
-  "name": "youtube-clone-mern-stack",
+  "name": "AAA Digital Services",
   "version": "1.0.0",
-  "description": "A backend practice ",
+  "description": "A backend",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.0",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0"
   }
 }
