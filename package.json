@@ -1,7 +1,7 @@
 {
-  "name": "AAA Digital Services",
+  "name": "aaa-digital-services-backed",
   "version": "1.0.0",
-  "description": "A backend",
+  "description": "A backend for the aaa digitsal services",
   "type": "module",
   "main": "index.js",
   "scripts": {
