@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail', // or your email service
+    service: 'gmail',
     auth: {
         user: process.env.EMAIL_USER, 
         pass: process.env.EMAIL_PASS, 
@@ -26,7 +26,7 @@ Best regards,\n
 AAA Digital Services\n
 Website: www.aaadigitalservices.com\n
 Phone: +923000431046\n
-Email: aaadigitaltd@gmail.com
+Email: aaadigitalltd@gmail.com
         `,
     };
 
